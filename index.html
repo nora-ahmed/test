@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's For Dinner</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="left">
+        <span class="logo">🍽️</span>
+        <div class="title-group">
+            <h1>What's For Dinner</h1>
+            <p>Your daily meal inspiration</p>
+        </div>
+    </div>
+
+    <div class="right">
+        <button class="icon-btn">🔖</button>
+        <button class="icon-btn">🔄</button>
+        <button class="icon-btn">⚙️</button>
+        <img src="https://i.pravatar.cc/40" class="profile">
+    </div>
+</nav>
+
+<!-- MAIN CONTENT -->
+<div class="container">
+
+    <!-- LEFT IMAGE -->
+    <div class="image-box">
+        <img src="photo-1574071318508-1cdbab80d002.avif"
+             alt="Margherita Pizza">
+    </div>
+
+    <!-- RIGHT CARD -->
+    <div id="recipe-card" class="recipe-card">
+
+        <span class="tag intermediate">Intermediate</span>
+        <span class="tag italian">Italian</span>
+
+        <h2>Margherita Pizza</h2>
+        <p class="subtitle">Classic Italian pizza with fresh mozzarella and basil</p>
+
+        <div class="warning">
+            ⚠ Extended Preparation Time — This recipe needs more than 45 minutes.
+        </div>
+
+        <!-- TABS -->
+        <div class="tabs">
+            <button class="active">Ingredients</button>
+            <button>Instructions</button>
+            <button>Nutrition</button>
+            <button>Chef’s Tips</button>
+        </div>
+
+        <!-- INGREDIENTS LIST -->
+        <ul class="ingredients">
+            <li>300g pizza dough</li>
+            <li>200g crushed tomatoes</li>
+            <li>250g fresh mozzarella</li>
+            <li>Fresh basil leaves</li>
+            <li>2 tbsp olive oil</li>
+            <li>2 cloves garlic, minced</li>
+        </ul>
+<button onclick="generateRecipe()">try a new recipe</button>
+    </div>
+</div>
+
+</body>
+</html>
